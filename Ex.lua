@@ -1,8 +1,8 @@
 
 local CRCO  = require("MainPre")   -- MainPre.lua (with getUpdatesLP & methods attached)
 local BOT_TOKENS = {
-  "YOUR_BOT_TOKEN_1",
-  "YOUR_BOT_TOKEN_2",}
+  "7843946839:AAH9T457tMVVkdp_woRPRszs0eMhtneQ_cs",-- crco 2
+  "7813708495:AAH9JPH-Kuif511JvCAfCfOBt-g23flkK4Y",}--- crco 1
 local function Command(bot, msg)
   if msg.type == "text" then
     local txt = (msg.text or ""):lower()
